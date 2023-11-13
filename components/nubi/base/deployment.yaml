@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: nubi
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/brianwcook-tenant/nubi/nubi@sha256:a915634344ce678521bbb7a8d22ffc88ef09de86869bb96162b963a0a694b0a9
         imagePullPolicy: Always
         name: container-image
         ports:
