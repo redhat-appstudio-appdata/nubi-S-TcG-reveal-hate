@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: nubi
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/brianwcook-tenant/nubi/nubi@sha256:a915634344ce678521bbb7a8d22ffc88ef09de86869bb96162b963a0a694b0a9
+        name: container-image
+        resources: {}
+status: {}
